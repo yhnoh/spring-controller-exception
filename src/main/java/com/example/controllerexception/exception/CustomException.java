@@ -23,5 +23,4 @@ public class CustomException extends RuntimeException{
         this.msg = message;
     }
 
-
 }

@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/")
 @Slf4j
 public class ExceptionController {
 
@@ -24,7 +23,7 @@ public class ExceptionController {
     }
 
     @GetMapping(value = "/runtime-exception")
-    public void runtimeException() throws RuntimeException{
+    public void runtimeException(){
         throw new RuntimeException("RuntimeException 에러 발생");
     }
 
