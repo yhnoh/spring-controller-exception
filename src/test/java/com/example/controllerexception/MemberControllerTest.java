@@ -26,10 +26,7 @@ import org.springframework.web.util.NestedServletException;
  * @Controller, @ControllerAdvice, @JsonComponent, Converter, GenericConverter, Filter, HandlerInterceptor, WebMvcConfigurer, HandlerMethodArgumentResolver
  */
 /**
- * https://bcp0109.tistory.com/303
- * https://incheol-jung.gitbook.io/docs/q-and-a/spring/controlleradvice-exceptionhandler
  * 1.@ResponseStatus
- *
  * 2.ResponseStatusException : @ResponseStatus의 대체제
  * HandlerExceptionResolver가 모든 exception 을 가로채서 처리, 구현체 ResponseStatusExceptionResolver
  *

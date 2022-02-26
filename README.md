@@ -223,7 +223,9 @@ public class CustomChildException extends CustomException{
 존재하면서 동시에 동일 에러를 핸들링하고 있으면 누가 먼저할까?
 바로 컨트롤러 내부에 있는 @ExceptionHandler가 에러 핸들링을 한다.
 
-
+### 출처
+* https://bcp0109.tistory.com/303
+* https://incheol-jung.gitbook.io/docs/q-and-a/spring/controlleradvice-exceptionhandler
 
 
 
